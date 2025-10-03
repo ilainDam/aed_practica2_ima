@@ -45,7 +45,15 @@ public class MenuAleatorio {
                 GestorAleatorio.verTodosLugares();
             }
             case 4-> {
-                return;
+                System.out.println("Los lugares disponibles son: ");
+                ArrayList<Integer> lista = GestorAleatorio.verTodosLugares();
+                lugar=leer.nextInt();
+                leer.nextLine();
+                if (comprobacionLugar(lugar,lista)){
+                    GestorAleatorio.modificarLugar(lugar,leerLugar());
+                }else {
+                    System.out.println("No es un lugar correcto");
+                }
             }
             case 0-> {
                 System.out.println("Adios");

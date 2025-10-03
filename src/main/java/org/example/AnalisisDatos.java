@@ -26,11 +26,5 @@ public class AnalisisDatos {
             System.out.println("La ocupacion maxima es "+ocupacionMaxima);
         }
     }
-    public static boolean escribirMaxCochesDiario(ArrayList<InstanciaTeno> lista){
-
-
-        
-        return true;
-    }
 
 }
