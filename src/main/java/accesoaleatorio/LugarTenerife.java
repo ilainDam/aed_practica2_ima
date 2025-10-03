@@ -9,7 +9,7 @@ public class LugarTenerife {
     public LugarTenerife(String lugarTenerife, int visitantes, float capitalRecaudado) {
         this.formatearTexto = new StringBuilder(lugarTenerife);
         formatearTexto.setLength(10);
-        lugarTenerife = formatearTexto.toString();
+        this.lugarTenerife = formatearTexto.toString();
         this.visitantes = visitantes;
         this.capitalRecaudado = capitalRecaudado;
     }
