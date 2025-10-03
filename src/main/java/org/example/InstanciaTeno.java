@@ -16,6 +16,7 @@ public class InstanciaTeno implements Serializable {
         this.fecha = fecha;
         this.numeroCoches = numeroCoches;
         this.numeroPersonas = numeroPersonas;
+        this.fechaFormateada = LocalDate.parse(this.fecha, f);
     }
 
     public String getFecha() {
